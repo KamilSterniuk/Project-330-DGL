@@ -24,4 +24,3 @@ A detailed project report is available at the following link:
 ## Contact
 
 For any questions or suggestions, please contact the project authors.
-"""
