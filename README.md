@@ -1,4 +1,4 @@
-readme_content = """
+
 # Enhancing the Performance of Anisotropic Graph Neural Networks Using a 3D Adjacency Matrix
 
 ## Project Description
@@ -25,9 +25,3 @@ A detailed project report is available at the following link:
 
 For any questions or suggestions, please contact the project authors.
 """
-
-file_path = "/mnt/data/README.md"
-with open(file_path, "w") as file:
-    file.write(readme_content)
-
-file_path
