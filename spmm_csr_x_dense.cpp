@@ -58,6 +58,12 @@ int main() {
         3
     };
 
+    // Macierz A: 
+    
+    // 1 0 2
+    // 0 3 4
+    // 5 6 0
+    
     // Przykładowa gęsta macierz B
     std::vector<std::vector<double>> B = {
         {1.0, 2.0, 3.0},
@@ -67,6 +73,12 @@ int main() {
 
     // Mnożenie A * B
     std::vector<std::vector<double>> C = spmm(A, B);
+    
+    // Wynik powinien być taki:
+
+    // 15 18 21
+    // 40 47 54
+    // 29 40 51
 
     // Wyświetlanie wyniku w formacie pełnej macierzy
     std::cout << "Matrix C in dense format:" << std::endl;
