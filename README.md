@@ -14,6 +14,7 @@ The project was conducted by:
 - Kamil Sterniuk
 - Miłosz Cur
 - Tsimafei Dalhou
+- Aleksandra Mech
 
 ## Documentation
 
