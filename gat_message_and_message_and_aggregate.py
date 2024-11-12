@@ -358,6 +358,7 @@ class GATConv2(MessagePassing):
                 if self.edge_dim is None:
                     edge_index = torch_sparse.set_diag(edge_index) #W przypadku macierzy CSR (SparseTensor), dodawanie self-loopów odbywa się za pomocą metody torch_sparse.set_diag
                 #    edge_index = torch.tensor(edge_index, dtype=torch.long)
+                #    edge_index = SparseTensor.from_edge_index(edge_index, edge_types)
                 else:
                     raise NotImplementedError(
                         "The usage of 'edge_attr' and 'add_self_loops' "
